@@ -1,9 +1,212 @@
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 html {
   font-size: 62.5%;
 }
+
+.main-container {
+  display: flex;
+  height: 100vh;
+}
+
+.image-container {
+  width: 50%;
+  height: 100vh;
+}
+
+.side-image {
+  width: 35%;
+  height: 100%;
+}
+
+/* .video-container {
+  position: relative;
+  height: 100vh;
+}
+
+.bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  object-fit: cover;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5)
+  );
+} */
+
+/* .bg-video-content {
+  height: 100%;
+  width: 100%;
+} */
+
+/* .section-form {
+  padding: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+} */
+
+.title-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+  font-size: 5rem;
+  font-family: "Lobster", sans-serif;
+}
+
+#description {
+  width: 100%;
+  display: inline-block;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.form {
+  margin: 0 auto;
+  width: 100%;
+  background-image: linear-gradient(
+    to right top,
+    #fabb51,
+    #d6b749,
+    #b4b148,
+    #94a94b,
+    #76a051,
+    #619551,
+    #4e8a51,
+    #3c7f51,
+    #2d704b,
+    #1f6244,
+    #12543d,
+    #064635
+  );
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem;
+  border-left: 1.5rem solid #f8b400;
+}
+
+label {
+  margin: 2rem 0 0.2rem 0;
+  display: inline-block;
+  font-size: 2rem;
+  width: 50%;
+  font-family: "Playball";
+}
+
+.form-name,
+.form-email,
+.form-number,
+.form-dropdown {
+  display: flex;
+  font-size: 2rem;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.dropdown-container .form-dropdown {
+  font-size: 1.5rem;
+  height: 4rem;
+}
+
+.form-name::placeholder,
+.form-email::placeholder,
+.form-number::placeholder,
+.form-dropdown::placeholder {
+  font-size: 1.5rem;
+}
+
+.form-dropdown .selected {
+  color: #555;
+}
+
+.form-radio:not(:last-child) {
+  margin-right: 6rem;
+}
+
+.select {
+  font-size: 2rem;
+}
+
+.radio-text {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.radio-container {
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+  width: 50%;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.form-text {
+  display: flex;
+  overflow-y: scroll;
+  resize: none;
+  font-size: 2rem;
+  padding: 0.5rem;
+  width: 50%;
+}
+
+.submit {
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 1.7rem;
+  background-image: linear-gradient(#be81e6, #f06060);
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.submit:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+}
+
+.submit:active {
+  transform: scale(1);
+  box-shadow: 0 0;
+}
+
+.submit-link:link,
+.submit-link:visited {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.submit-link:hover,
+.submit-link:active {
+  color: #833ab4;
+}
+
+/* //////////////////////////////////// */
+/* THANK YOU PAGE */
+/* //////////////////////////////////// */

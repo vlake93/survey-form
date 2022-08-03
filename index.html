@@ -4,15 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Playball&display=swap" rel="stylesheet">
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
     <title>Survey form</title>
   </head>
   <body>
-    <header>
-      <h1>Survey Form</h1>
-    </header>
+
     <main class="main-container">
+        <img class="side-image" src="assets/side-image-4.jpg" alt="">
       <form class="form" method="get">
-        <div class="name-container">
+        <div class="title-holder">
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Provide us a feedback to serve you better!</p>
+      </div>
+        <!-- <div class="name-container"> -->
           <label class="name-label" for="name"
             >Full name
             <input
@@ -23,8 +34,8 @@
               placeholder="Full name"
             />
           </label>
-        </div>
-        <div class="email-container">
+        <!-- </div> -->
+        <!-- <div class="email-container"> -->
           <label class="email-label" for="email"
             >Email
             <input
@@ -35,8 +46,8 @@
               placeholder="email@example.com"
             />
           </label>
-        </div>
-        <div class="number-container">
+        <!-- </div> -->
+        <!-- <div class="number-container"> -->
           <label class="number-label" for="number"
             >Rating
             <input
@@ -49,8 +60,59 @@
               placeholder="Rate us from 1 to 10 (10 being the highest)"
             />
           </label>
-        </div>
-      </form>
-    </main>
-  </body>
+        <!-- </div> -->
+        <!-- <div class="dropdown-container"> -->
+          <label for="dropdown">Noteworthy drink:
+          <select class="form-dropdown" name="dropdown" id="dropdown" required>
+            <option class="selected" value="0">Select one:</option>
+            <option value="1">Americano</option>
+            <option value="2">Espresso</option>
+            <option value="3">Cappuccino</option>
+            <option value="4">Mocha</option>
+            <option value="5">Matcha</option>
+            <option value="6">Macchiato</option>
+            <option value="7">Spanish latte</option>
+          </select>
+      <!-- </div> -->
+    </label>
+    <h2 class="radio-text">Overall experience</h2>
+      <div class="radio-container">
+        <label class="radio-label" for="excellent">Excellent
+        <input name="radio" class="form-radio" type="radio" id="excellent"
+        required" />
+      </label>
+        <label class="radio-label" for="good">Good
+        <input name="radio" class="form-radio" type="radio" id="good"
+        required" />
+      </label>
+        <label class="radio-label" for="neutral">Neutral
+        <input name="radio" class="form-radio" type="radio" id="neutral"
+        required" />
+      </label>
+        <label class="radio-label" for="bad">Bad
+        <input name="radio" class="form-radio" type="radio" id="bad"
+        required" />
+      </label>
+      </div>
+      <!-- <div class="text-container"> -->
+        <label class="text-label" for="text">Feedback</label>
+        <textarea
+          id="text"
+          class="form-text"
+          name="text"
+          id="text"
+          cols="40"
+          rows="10"
+        ></textarea>
+      <!-- </div> -->
+      <img src="" alt="">
+    </div>
+      <div class="button-container">
+        <button class="submit" type="submit" name="submit" id="submit" value="Submit form"><a class="submit-link" href="thanks.html">Submit</a></button>
+      </div>
+    </form>
+  </section>
+  <script src="script/script.js"></script>
+</div>
+</body>
 </html>
