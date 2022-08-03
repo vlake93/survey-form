@@ -18,7 +18,7 @@
 
     <main class="main-container">
         <img class="side-image" src="assets/side-image-4.jpg" alt="">
-      <form class="form" method="get">
+      <form class="form" method="get" action="thanks.html">
         <div class="title-holder">
         <h1 id="title">Survey Form</h1>
         <p id="description">Answer the survey below so that we could serve you better</p>
@@ -44,6 +44,7 @@
               id="email"
               required
               placeholder="email@example.com"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
             />
           </label>
         <!-- </div> -->
@@ -108,7 +109,7 @@
       <img src="" alt="">
     </div>
       <div class="button-container">
-        <button class="submit" type="submit" name="submit" id="submit" value="Submit form"><a class="submit-link" href="thanks.html">Submit</a></button>
+         <a href="#"><input type="submit" class="submit" id="submit"></a>
       </div>
     </form>
   </section>

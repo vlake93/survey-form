@@ -75,7 +75,7 @@ html {
 #description {
   width: 100%;
   display: inline-block;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
 }
 
@@ -180,32 +180,22 @@ label {
   border-radius: 0.5rem;
   border: none;
   font-size: 1.7rem;
-  background-image: linear-gradient(#be81e6, #f06060);
+  background-image: linear-gradient(#fabb51, #f8b400);
   text-transform: uppercase;
   cursor: pointer;
   transition: all 0.2s;
+  color: #fff;
 }
 
 .submit:hover {
   transform: scale(1.1);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+  color: #064635;
 }
 
 .submit:active {
   transform: scale(1);
   box-shadow: 0 0;
-}
-
-.submit-link:link,
-.submit-link:visited {
-  color: #fff;
-  text-decoration: none;
-  transition: all 0.2s;
-}
-
-.submit-link:hover,
-.submit-link:active {
-  color: #833ab4;
 }
 
 /* //////////////////////////////////// */
