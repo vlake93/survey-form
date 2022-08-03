@@ -17,7 +17,9 @@
   <body>
 
     <main class="main-container">
-        <img class="side-image" src="assets/side-image-4.jpg" alt="">
+      <div class="image-container">
+      </div>
+        <!-- <img class="side-image" src="assets/side-image-4.jpg" alt=""> -->
       <form class="form" method="get" action="thanks.html">
         <div class="title-holder">
         <h1 id="title">Survey Form</h1>
@@ -65,7 +67,7 @@
         <!-- <div class="dropdown-container"> -->
           <label for="dropdown">Noteworthy drink:
           <select class="form-dropdown" name="dropdown" id="dropdown" required>
-            <option class="selected" value="0">Select one:</option>
+            <option class="selected" value="0"></option>
             <option value="1">Americano</option>
             <option value="2">Espresso</option>
             <option value="3">Cappuccino</option>
@@ -76,6 +78,7 @@
           </select>
       <!-- </div> -->
     </label>
+    
     <h2 class="radio-text">Overall experience</h2>
       <div class="radio-container">
         <label class="radio-label" for="excellent">Excellent
@@ -94,6 +97,45 @@
         <input name="radio" class="form-radio" type="radio" id="bad"
         required" />
       </label>
+      </div>
+      <h2 class="checkbox-text">What can we improve on?</h2>
+      <div class="checkbox">
+        <div class="checkbox-container">
+        <label class="checbox-label ambience" for="ambience">
+          Ambience
+          <input type="checkbox" id="ambience">
+        </label>
+      </div>
+      <div class="checkbox-container">
+        <label class="checbox-label" for="food">
+          Food
+          <input type="checkbox" id="food">
+        </label>
+        </div>
+        <div class="checkbox-container">
+        <label class="checbox-label" for="drink">
+          Drink
+          <input type="checkbox" id="drink">
+        </label>
+        </div>
+        <div class="checkbox-container lower-span-1">
+        <label class="checbox-label" for="customer">
+          Service
+          <input type="checkbox" id="customer">
+        </label>
+        </div>
+        <div class="checkbox-container lower-span-2">
+        <label class="checbox-label" for="staff">
+          Staff
+          <input type="checkbox" id="staff">
+        </label>
+        </div>
+        <div class="checkbox-container lower-span-2">
+        <label class="checbox-label" for="music">
+          Music
+          <input type="checkbox" id="music">
+        </label>
+        </div>
       </div>
       <!-- <div class="text-container"> -->
         <label class="text-label" for="text">Feedback</label>
