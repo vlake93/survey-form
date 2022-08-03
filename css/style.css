@@ -110,7 +110,8 @@ label {
   display: inline-block;
   font-size: 2rem;
   width: 50%;
-  font-family: "Playball";
+  font-family: "Playfair";
+  font-weight: 700;
 }
 
 .form-name,
