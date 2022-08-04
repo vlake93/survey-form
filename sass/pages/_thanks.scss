@@ -16,3 +16,13 @@
     -webkit-text-stroke: 0.005rem $color-black;
   }
 }
+
+.second-heading {
+  padding: 2rem;
+  font-size: 7rem;
+  margin-top: 4rem;
+  text-align: center;
+  font-family: $font-lobster;
+  color: $color-white;
+  -webkit-text-stroke: 0.01rem $color-black;
+}
