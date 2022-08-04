@@ -1,0 +1,18 @@
+.body-thanks {
+  background-image: $main-gradient;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.thanks {
+  margin-top: auto auto;
+}
+
+.thanks-heading {
+  font-size: 15rem;
+  margin-top: 20%;
+  text-align: center;
+  font-family: $font-lobster;
+  color: $color-white;
+  -webkit-text-stroke: 0.005rem $color-black;
+}

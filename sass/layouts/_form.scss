@@ -1,0 +1,122 @@
+.form {
+  margin: 0 auto;
+  width: 100%;
+  background-image: $main-gradient;
+  color: $color-white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  border-left: 1.5rem solid #f8b400;
+}
+.form-name,
+.form-email,
+.form-number,
+.form-dropdown {
+  display: flex;
+  font-size: 3rem;
+  width: 100%;
+  padding: 0.5rem;
+  background-color: transparent;
+  border: none;
+  border-bottom: 0.3rem solid $color-white;
+  color: $color-white;
+}
+
+.form-dropdown option {
+  background-color: #064635;
+}
+
+.form-name:focus,
+.form-email:focus,
+.form-number:focus,
+.form-dropdown:focus {
+  outline: none;
+}
+
+.dropdown-container .form-dropdown {
+  font-size: 1.5rem;
+  height: 4rem;
+}
+
+.form-name::placeholder,
+.form-email::placeholder,
+.form-number::placeholder,
+.form-dropdown::placeholder {
+  font-size: 1.8rem;
+  color: $color-grey;
+}
+
+/* ///////////////////////////// */
+/* RADIO */
+/* ///////////////////////////// */
+
+.form-radio:not(:last-child) {
+  margin-right: 6rem;
+}
+
+.radio-text {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.radio-container {
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+  width: 50%;
+  border: 0.2rem solid $color-white;
+  padding: 2rem;
+
+  @include break(medium-desktop) {
+    flex-wrap: wrap;
+  }
+}
+
+.form-radio:not(:last-child) {
+  margin-right: 6rem;
+}
+
+/* ///////////////////////////// */
+/* CHECKBOX */
+/* ///////////////////////////// */
+.checkbox {
+  width: 50%;
+  border: 0.2rem solid $color-white;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  &-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @include break(medium-desktop) {
+      flex-wrap: wrap;
+    }
+  }
+
+  &-lower-span-2 {
+    grid-column: 3 / 4;
+  }
+
+  &-text {
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+}
+
+/* ///////////////////////////// */
+/* TEXT-AREA */
+/* ///////////////////////////// */
+
+.form-text {
+  display: flex;
+  overflow-y: scroll;
+  resize: none;
+  font-size: 2rem;
+  padding: 0.5rem;
+  width: 50%;
+  height: 200px;
+}

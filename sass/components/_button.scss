@@ -1,0 +1,27 @@
+.gold-btn {
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 1.7rem;
+  background-image: linear-gradient(#fabb51, #f8b400);
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.2s;
+  color: #fff;
+}
+
+.gold-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+  color: #064635;
+}
+
+.gold-btn:active {
+  transform: scale(1);
+  box-shadow: 0 0;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 2rem;
+}

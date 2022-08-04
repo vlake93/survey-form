@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playfair" sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+
+  @include break(phone) {
+    font-size: 35%;
+  }
+  @include break(tablet) {
+    font-size: 40%;
+  }
+  @include break(laptop) {
+    font-size: 45%;
+  }
+  @include break(medium-desktop) {
+    font-size: 50%;
+  }
+  @include break(big-desktop) {
+    font-size: 55%;
+  }
+}
