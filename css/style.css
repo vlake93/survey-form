@@ -205,11 +205,10 @@ input:-webkit-autofill {
 
 .thanks {
   margin-top: auto auto; }
-
-.thanks-heading {
-  font-size: 15rem;
-  margin-top: 20%;
-  text-align: center;
-  font-family: "Lobster", sans-serif;
-  color: #fff;
-  -webkit-text-stroke: 0.005rem #000; }
+  .thanks-heading {
+    font-size: 15rem;
+    margin-top: 20%;
+    text-align: center;
+    font-family: "Lobster", sans-serif;
+    color: #fff;
+    -webkit-text-stroke: 0.005rem #000; }
